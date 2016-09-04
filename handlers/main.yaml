@@ -1,4 +1,4 @@
 ---
 
 - name: Reload sysctl configuration
-  shell: sysctl -p "{{ sysctl_config_location }}"
+  shell: sysctl -p '{{ sysctl_config_location }}'
